@@ -8,12 +8,12 @@ This directory contains a static website. No dependency installation or build co
 
 - `index.html`: White paper introduction, reading and download links, chapter contents, and editorial team.
 - `style.css`: Page styling and responsive layouts.
-- `assets/ai-short-drama-copyright.pdf`: The original PDF, with its contents unchanged.
+- `assets/AI短剧版权治理白皮书V1.0.pdf`: The white paper PDF. Its document title matches its filename; page contents are unchanged.
 - `assets/cover.png`: An image rendered from the first page of the PDF.
 
 ## Updating the White Paper
 
-1. Replace `assets/ai-short-drama-copyright.pdf` with the updated document.
+1. Replace `assets/AI短剧版权治理白皮书V1.0.pdf` with the updated document.
 2. Update the document date, page count, file size, chapter titles, and chapter page numbers in `index.html`. If the filename changes, update every PDF link as well.
 3. If the cover changes, regenerate `assets/cover.png` from the first page of the updated PDF.
 4. Commit the changes and wait for GitHub Pages deployment to finish. Check the reading, download, and chapter links on desktop and mobile browsers.
